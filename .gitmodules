@@ -4,3 +4,12 @@
 [submodule "src/zed-ros-wrapper"]
 	path = src/zed-ros-wrapper
 	url = git@github.com:maheubi/maxonbadger-.git
+[submodule "xcon_to_mmacs"]
+	path = xcon_to_mmacs
+	url = https://github.com/maheubi/xcon_to_mmacs.git
+[submodule "simple_layers"]
+	path = simple_layers
+	url = https://github.com/maheubi/simple_layers.git
+[submodule "object_detection"]
+	path = object_detection
+	url = https://github.com/maheubi/object_detection.git
