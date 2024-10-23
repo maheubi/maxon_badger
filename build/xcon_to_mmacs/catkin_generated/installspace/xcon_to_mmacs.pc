@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: xcon_to_mmacs
+Description: Description of xcon_to_mmacs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

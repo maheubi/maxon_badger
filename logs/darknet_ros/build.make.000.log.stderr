@@ -1,0 +1,46 @@
+In file included from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/user/catkin_ws/src/darknet_ros/darknet_ros/test/test_main.cpp:4[m[K:
+[01m[K/usr/include/boost/math/tools/config.hpp:23:6:[m[K [01;35m[Kwarning: [m[K#warning "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)" [[01;35m[K-Wcpp[m[K]
+   23 | #    [01;35m[Kwarning[m[K "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)"
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:45[m[K,
+                 from [01m[K/home/user/catkin_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:13[m[K:
+[01m[K/usr/include/boost/math/tools/config.hpp:23:6:[m[K [01;35m[Kwarning: [m[K#warning "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)" [[01;35m[K-Wcpp[m[K]
+   23 | #    [01;35m[Kwarning[m[K "The minimum language standard to use Boost.Math will be C++14 starting in July 2023 (Boost 1.82 release)"
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/user/catkin_ws/src/darknet_ros/darknet_ros/test/test_main.cpp:4[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/platform_time.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/condition_variable.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/condition_variable.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/thread/condition.hpp:13[m[K,
+                 from [01m[K/opt/ros/noetic/include/actionlib/client/simple_action_client.h:38[m[K,
+                 from [01m[K/home/user/catkin_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:13[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/darknet_ros_object_detection-test.dir/test/ObjectDetection.cpp.o: in function `cv_bridge::CvImage::CvImage()':
+/opt/ros/noetic/include/cv_bridge/cv_bridge.h:86: undefined reference to `cv::Mat::Mat()'
+collect2: error: ld returned 1 exit status
+make[3]: *** [CMakeFiles/darknet_ros_object_detection-test.dir/build.make:184: /home/user/catkin_ws/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros_object_detection-test] Error 1
+make[2]: *** [CMakeFiles/Makefile2:1041: CMakeFiles/darknet_ros_object_detection-test.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:1129: CMakeFiles/run_tests.dir/rule] Error 2
+make: *** [Makefile:617: run_tests] Error 2

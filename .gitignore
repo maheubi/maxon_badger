@@ -1,0 +1,8 @@
+*.log
+
+catkin_ws/src/object_detection/video
+# Ignore specific large video files
+src/object_detection/video/trains-tracks.svo
+src/object_detection/video/traintracks.avi
+src/object_detection/video/inside.svo
+
